@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+taipy = "*"
+black = "*"
+pymongo = "*"
+python-dotenv = "*"
+python-dateutil = "*"
+scikit-learn = "*"
+
+[dev-packages]
+black = "*"
+ruff = "*"
+
+[requires]
+python_version = "3.11"
